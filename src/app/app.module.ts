@@ -9,7 +9,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { AboutMeComponent } from './about-me/about-me.component';
+import { EducationComponent } from './education/education.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
@@ -17,7 +17,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   declarations: [
     AppComponent,
     DashboardComponent,
-    AboutMeComponent
+    EducationComponent
   ],
   imports: [
     BrowserModule,
