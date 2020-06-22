@@ -1,0 +1,25 @@
+.mat-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+mat-card {
+    min-width: 55vw;
+    margin: 10px;
+}
+
+mat-card-header {
+    margin-bottom: 20px;
+}
+
+.education-title {
+    color: rgba(5, 65, 123, 1);
+    font-size: 30px;
+}
+
+.education-non-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
