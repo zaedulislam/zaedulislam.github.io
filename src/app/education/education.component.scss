@@ -1,13 +1,11 @@
 .mat-card-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-color: #f0f2f5;
 }
 
 mat-card {
-    min-width: 55vw;
-    margin: 10px;
+    margin: 10px 20px;
 }
 
 mat-card-header {
