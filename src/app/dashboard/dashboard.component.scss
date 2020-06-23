@@ -1,7 +1,32 @@
-.dashboard-title{
-    margin-right: 300px;
+mat-toolbar {
+    border-bottom: 1px solid grey;
+    position: sticky;
+    top: 0;
+    z-index: 5000;
+    font-size: 15px;
 }
 
-.fill-space {
-    flex: 1 1 auto;
+mat-toolbar-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .toolbar-title {
+        display: flex;
+        flex-direction: row;
+
+        .name-text {
+            font-size: 26px;
+            font-weight: 700px;
+            margin-right: 20px;
+        }
+    }
+
+    .toolbar-items {
+        display: flex;
+
+        .toolbar-item {
+            padding: 0px 14px;
+        }
+    }
 }

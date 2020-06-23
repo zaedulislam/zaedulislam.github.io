@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
     styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent {
-    tabs: string[] = [
+    toolbarItems: string[] = [
         'About Me',
         'Education',
         'Experience',

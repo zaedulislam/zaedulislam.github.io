@@ -1,6 +1,12 @@
-<mat-toolbar>
+<mat-toolbar color="primary">
     <mat-toolbar-row>
-        <span class="dashboard-title">Zaedul Islam</span>
-        <span class='fill-space' *ngFor="let tab of tabs">{{tab}}</span>
+        <div class="toolbar-title">
+            <span class="name-text">Zaedul Islam</span>
+        </div>
+        <div class="toolbar-items">
+            <span class="toolbar-item" *ngFor="let toolbarItem of toolbarItems">{{toolbarItem}}</span>
+        </div>
     </mat-toolbar-row>
 </mat-toolbar>
+
+<education></education>
