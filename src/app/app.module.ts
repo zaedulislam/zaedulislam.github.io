@@ -7,6 +7,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatIconModule } from '@angular/material/icon';
+import { MatDividerModule } from '@angular/material/divider';
 
 // Angular Flex-Layout
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -30,6 +33,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatToolbarModule,
     MatTabsModule,
     MatCardModule,
+    MatMenuModule,
+    MatIconModule,
+    MatDividerModule,
     FlexLayoutModule
   ],
   providers: [],
