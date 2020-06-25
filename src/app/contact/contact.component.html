@@ -1,0 +1,66 @@
+<div class="mat-card-container" fxLayout="row wrap">
+    <mat-card class="contact-infomation" fxFlex="calc(40% - 10px)" fxFlex.lt-md="0 0 calc(100% )">
+        <mat-card-header>
+            <mat-card-title>Contact Information</mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content>
+            <span><strong>Email Address</strong></span>
+            <ul>
+                <li>Email (Work): {{contacts.emails[0].work }} </li>
+                <li>Email (Personal): {{contacts.emails[1].personal }}</li>
+            </ul>
+
+            <span><strong>Skype</strong>: {{contacts.skype}}</span>
+            <br><br>
+
+            <span><strong>LinkedIn</strong>: {{contacts.linkedIn}}</span>
+            <br><br>
+
+            <span><strong>Phone</strong>: {{contacts.phone}}</span>
+            <br><br>
+
+            <span><strong>Address</strong></span>
+            <ul>
+                <li>{{contacts.location}}</li>
+            </ul>
+        </mat-card-content>
+
+    </mat-card>
+
+    <mat-card class="email-box" fxFlex="calc(60% - 10px)" fxFlex.lt-md="0 0 calc(100%)">
+        <mat-card-header>
+            <mat-card-title></mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content>
+            <mat-form-field style="width: calc(50% - 5px); margin-right: 5px;" appearance="outline">
+                <mat-label>Name</mat-label>
+                <input matInput placeholder="Name" required>
+            </mat-form-field>
+
+            <mat-form-field style="width: calc(50% - 5px); margin-left: 5px;" appearance="outline">
+                <mat-label>Phone</mat-label>
+                <input matInput placeholder="Phone" required>
+            </mat-form-field>
+
+            <mat-form-field style="width: calc(50% - 5px); margin-right: 5px;" appearance="outline">
+                <mat-label>Email</mat-label>
+                <input matInput placeholder="Email Address" required>
+            </mat-form-field>
+
+            <mat-form-field style="width: calc(50% - 5px); margin-left: 5px;" appearance="outline">
+                <mat-label>Subject</mat-label>
+                <input matInput placeholder="Subject" required>
+            </mat-form-field>
+
+            <mat-form-field style="width: 100%" appearance="outline">
+                <mat-label>Message</mat-label>
+                <textarea matInput type="text" placeholder="Type Message Here" formControlName="yourMessage" required>
+                </textarea>
+            </mat-form-field>
+
+        </mat-card-content>
+
+    </mat-card>
+</div>

@@ -1,0 +1,31 @@
+.mat-card-container {
+    padding: 24px;
+
+    mat-card{
+        margin: 5px;
+    }
+}
+
+.email-box {
+}
+
+.contact-infomation > mat-card-header {
+    margin-bottom: 20px;
+}
+
+span {
+    padding-left: 18px;
+}
+
+ul {
+    padding-left: 50px;
+}
+
+mat-form-field {
+    // width: 100%;
+
+    textarea {
+        resize: none; // This will turn off the resizing
+        height: 150px;  // Set your suitable h
+    }
+}

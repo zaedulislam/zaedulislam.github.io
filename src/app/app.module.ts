@@ -10,6 +10,9 @@ import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
 
 // Angular Flex-Layout
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -17,6 +20,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EducationComponent } from './education/education.component';
+import { ContactComponent } from './contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
@@ -24,7 +28,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   declarations: [
     AppComponent,
     DashboardComponent,
-    EducationComponent
+    EducationComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -36,6 +41,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatMenuModule,
     MatIconModule,
     MatDividerModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
     FlexLayoutModule
   ],
   providers: [],
