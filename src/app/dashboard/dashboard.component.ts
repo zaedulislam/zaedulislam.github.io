@@ -7,16 +7,16 @@ import { Component } from '@angular/core';
 })
 export class DashboardComponent {
     toolbarItems: string[] = [
-        'About Me',
-        'Education',
-        'Experience',
-        'Projects',
-        'Certifications',
-        'Research',
-        'Awards',
-        'Blog',
+        'ABOUT ME',
+        'EDUCATION',
+        'EXPERIENCE',
+        'PROJECTS',
+        'CERTIFICATIONS',
+        'RESEARCH',
+        'AWARDS',
+        'BLOG',
         'CV',
-        'Contact'
+        'CONTACT'
     ];
 
 
