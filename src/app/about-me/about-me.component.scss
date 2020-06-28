@@ -1,0 +1,31 @@
+.mat-card-container {
+    padding: 24px;
+
+    mat-card {
+        margin: 5px;
+
+        mat-card-header {
+            margin-bottom: 20px;
+
+            mat-card-title {
+                font-size: 30px;
+                color: #05417b;
+            }
+        }
+    }
+}
+
+img {
+    margin: 0px !important;
+    padding-right: 40px;
+    width: 300px;
+}
+
+.introduction {
+    padding: 40px 0px 0px 0px;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 1.56;
+    text-align: justify;
+    white-space: normal;
+}
