@@ -1,0 +1,45 @@
+.mat-card-container {
+    padding: 24px;
+
+    mat-card {
+        margin: 5px;
+
+        mat-card-header {
+            margin-bottom: 20px;
+
+            mat-card-title {
+                font-size: 30px;
+                color: #05417b;
+            }
+        }
+    }
+}
+
+.profile-picture {
+    margin: 0px !important;
+    padding-right: 40px;
+    width: 300px;
+}
+
+.profiles {
+    margin: 0px;
+    width: 120px;
+    height: 120px;
+    border: 1px solid darkslategray;
+    border-radius: 5px !important;
+    margin-right: 15px;
+}
+
+.introduction {
+    padding: 40px 0px 0px 0px;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 1.56;
+    text-align: justify;
+    white-space: normal;
+}
+
+li {
+    font-size: 16px;
+    line-height: 1.56;
+}
