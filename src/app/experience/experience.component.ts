@@ -24,6 +24,36 @@ export class ExperienceComponent {
                 "Prepared documentation of use cases and flow charts to illustrate the entire workflow of several processes",
                 "Developed a highly interactive web application that uses the 'Internet of Things' by utilizing <strong>Angular 8</strong>, Angular Material Design, and integrating RESTful APIs"
             ]
+        },
+        {
+            designation: 'Undergraduate Teaching Assistant (Internship)',
+            company: {
+                name: 'American International University-Bangladesh',
+                url: ''
+            },
+            responsibilities: [
+                "Assisted students to learn different topics of 'Artificial Intelligence and Expert System' and to implementthe source codes in the lab",
+            ]
+        },
+        {
+            designation: 'Volunteer',
+            company: {
+                name: 'AIUB GIRLS PROGRAMMING CONTEST - SPRING 2016-2017',
+                url: ''
+            },
+            responsibilities: [
+                "Monitored the contest labs and judged contestants’ submissions",
+            ]
+        },
+        {
+            designation: 'Academic  Assistant',
+            company: {
+                name: '',
+                url: ''
+            },
+            responsibilities: [
+                "On  behalf  of  AIUB  Competitive  Programmers’  Community  (ACPC).  Assisted  fellowAIUBians who had found difficulties in subjects such as C, C++, C#, Java, Discrete Math, Data Structure andAlgorithms to understand the topics, program or code",
+            ]
         }
-    ]
+    ];
 }

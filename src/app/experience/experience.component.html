@@ -1,9 +1,9 @@
 <div class="mat-card-container" fxLayout="row wrap">
 
-    <mat-card>
+    <mat-card fxFlex="calc(100%)">
         <mat-card-header>
             <mat-card-title>Professional Experience</mat-card-title>
-            <mat-card-subtitle>{{experience[0].designation}} at {{experience[0].company.name}} </mat-card-subtitle>
+            <mat-card-subtitle>{{experience[0].designation}} | {{experience[0].company.name}} </mat-card-subtitle>
         </mat-card-header>
 
         <mat-card-content>
@@ -11,5 +11,42 @@
                 <li>{{responsibility}}</li>
             </ul>
         </mat-card-content>
+    </mat-card>
+
+    <mat-card fxFlex="calc(100%)">
+        <mat-card-header>
+            <mat-card-title>Academic Experience</mat-card-title>
+            <mat-card-subtitle>{{experience[1].designation}} | {{experience[1].company.name}} </mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content>
+            <ul *ngFor="let responsibility of experience[1].responsibilities">
+                <li>{{responsibility}}</li>
+            </ul>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card fxFlex="calc(100%)">
+        <mat-card-header>
+            <mat-card-title>Extracurricular Activities</mat-card-title>
+            <mat-card-subtitle>{{experience[2].designation}} | {{experience[2].company.name}} </mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content>
+            <ul *ngFor="let responsibility of experience[2].responsibilities">
+                <li>{{responsibility}}</li>
+            </ul>
+        </mat-card-content>
+
+        <mat-card-header>
+            <mat-card-subtitle>{{experience[3].designation}} {{experience[3].company.name}} </mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content>
+            <ul *ngFor="let responsibility of experience[3].responsibilities">
+                <li>{{responsibility}}</li>
+            </ul>
+        </mat-card-content>
+
     </mat-card>
 </div>
