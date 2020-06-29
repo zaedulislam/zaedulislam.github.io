@@ -1,0 +1,28 @@
+.mat-card-container {
+    padding: 24px;
+
+    mat-card {
+        margin: 5px;
+
+        mat-card-header {
+            margin-bottom: 20px;
+
+            mat-card-title {
+                font-size: 30px;
+                color: #05417b;
+            }
+
+            mat-card-subtitle {
+                margin: 0px;
+                font-size: 20px;
+                color: black;
+            }
+        }
+    }
+}
+
+li{
+    font-size: 16px;
+    text-align: justify;
+    white-space: normal;
+}
