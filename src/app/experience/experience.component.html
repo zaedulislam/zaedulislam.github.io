@@ -3,7 +3,8 @@
     <mat-card fxFlex="calc(100%)">
         <mat-card-header>
             <mat-card-title>Professional Experience</mat-card-title>
-            <mat-card-subtitle>{{experience[0].designation}} | {{experience[0].company.name}} </mat-card-subtitle>
+            <mat-card-subtitle>{{experience[0].designation}} | <a href="{{experience[0].company.url}}"
+                    target="_blank">{{experience[0].company.name}}</a> </mat-card-subtitle>
         </mat-card-header>
 
         <mat-card-content>
@@ -16,7 +17,8 @@
     <mat-card fxFlex="calc(100%)">
         <mat-card-header>
             <mat-card-title>Academic Experience</mat-card-title>
-            <mat-card-subtitle>{{experience[1].designation}} | {{experience[1].company.name}} </mat-card-subtitle>
+            <mat-card-subtitle>{{experience[1].designation}} | <a href="{{experience[1].company.url}}"
+                    target="_blank">{{experience[1].company.name}} </a></mat-card-subtitle>
         </mat-card-header>
 
         <mat-card-content>
@@ -29,7 +31,8 @@
     <mat-card fxFlex="calc(100%)">
         <mat-card-header>
             <mat-card-title>Extracurricular Activities</mat-card-title>
-            <mat-card-subtitle>{{experience[2].designation}} | {{experience[2].company.name}} </mat-card-subtitle>
+            <mat-card-subtitle>{{experience[2].designation}} | <a href="{{experience[2].company.url}}"
+                    target="_blank">{{experience[2].company.name}} </a></mat-card-subtitle>
         </mat-card-header>
 
         <mat-card-content>
@@ -39,11 +42,23 @@
         </mat-card-content>
 
         <mat-card-header>
-            <mat-card-subtitle>{{experience[3].designation}} {{experience[3].company.name}} </mat-card-subtitle>
+            <mat-card-subtitle>{{experience[3].designation}} | <a href="{{experience[3].company.url}}"
+                    target="_blank">{{experience[3].company.name}} </a></mat-card-subtitle>
         </mat-card-header>
 
         <mat-card-content>
             <ul *ngFor="let responsibility of experience[3].responsibilities">
+                <li>{{responsibility}}</li>
+            </ul>
+        </mat-card-content>
+
+        <mat-card-header>
+            <mat-card-subtitle>{{experience[4].designation}} | <a href="{{experience[4].company.url}}"
+                    target="_blank">{{experience[4].company.name}} </a></mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content>
+            <ul *ngFor="let responsibility of experience[4].responsibilities">
                 <li>{{responsibility}}</li>
             </ul>
         </mat-card-content>
