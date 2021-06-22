@@ -1,67 +1,103 @@
-<div class="mat-card-container" fxLayout="row wrap">
+<div class="experience-container">
 
-    <mat-card fxFlex="calc(100%)">
-        <mat-card-header>
-            <mat-card-title>Professional Experience</mat-card-title>
-            <mat-card-subtitle>{{experience[0].designation}} | <a href="{{experience[0].company.url}}"
-                    target="_blank">{{experience[0].company.name}}</a> </mat-card-subtitle>
-        </mat-card-header>
+    <div class="mat-card-container">
 
-        <mat-card-content>
-            <ul *ngFor="let responsibility of experience[0].responsibilities">
-                <li>{{responsibility}}</li>
-            </ul>
-        </mat-card-content>
-    </mat-card>
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>{{ professionalSectionHeader | uppercase }}</mat-card-title>
+            </mat-card-header>
 
-    <mat-card fxFlex="calc(100%)">
-        <mat-card-header>
-            <mat-card-title>Academic Experience</mat-card-title>
-            <mat-card-subtitle>{{experience[1].designation}} | <a href="{{experience[1].company.url}}"
-                    target="_blank">{{experience[1].company.name}} </a></mat-card-subtitle>
-        </mat-card-header>
+            <mat-card-content>
 
-        <mat-card-content>
-            <ul *ngFor="let responsibility of experience[1].responsibilities">
-                <li>{{responsibility}}</li>
-            </ul>
-        </mat-card-content>
-    </mat-card>
+                <div class="designation-wrapper">
+                    <span class="designation">{{experience[0].designation | uppercase}}</span>
+                    <span class="experience-timeline">{{experience[0].startDate}} - {{experience[0].endDate}}</span>
+                </div>
 
-    <mat-card fxFlex="calc(100%)">
-        <mat-card-header>
-            <mat-card-title>Extracurricular Activities</mat-card-title>
-            <mat-card-subtitle>{{experience[2].designation}} | <a href="{{experience[2].company.url}}"
-                    target="_blank">{{experience[2].company.name}} </a></mat-card-subtitle>
-        </mat-card-header>
+                <span class="company-name">
+                    <a href="{{experience[0].company.url}}" target="_blank">{{experience[0].company.name |
+                        uppercase}}</a>
+                </span>
 
-        <mat-card-content>
-            <ul *ngFor="let responsibility of experience[2].responsibilities">
-                <li>{{responsibility}}</li>
-            </ul>
-        </mat-card-content>
+                <ul *ngFor="let responsibility of experience[0].responsibilities">
+                    <li>{{responsibility}}</li>
+                </ul>
+            </mat-card-content>
+        </mat-card>
 
-        <mat-card-header>
-            <mat-card-subtitle>{{experience[3].designation}} | <a href="{{experience[3].company.url}}"
-                    target="_blank">{{experience[3].company.name}} </a></mat-card-subtitle>
-        </mat-card-header>
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>{{ academicSectionHeader | uppercase }}</mat-card-title>
 
-        <mat-card-content>
-            <ul *ngFor="let responsibility of experience[3].responsibilities">
-                <li>{{responsibility}}</li>
-            </ul>
-        </mat-card-content>
+            </mat-card-header>
 
-        <mat-card-header>
-            <mat-card-subtitle>{{experience[4].designation}} | <a href="{{experience[4].company.url}}"
-                    target="_blank">{{experience[4].company.name}} </a></mat-card-subtitle>
-        </mat-card-header>
+            <mat-card-content>
+                <div class="designation-wrapper">
+                    <span class="designation">{{experience[1].designation | uppercase}}</span>
+                    <span class="experience-timeline">{{experience[1].startDate}} - {{experience[1].endDate}}</span>
+                </div>
 
-        <mat-card-content>
-            <ul *ngFor="let responsibility of experience[4].responsibilities">
-                <li>{{responsibility}}</li>
-            </ul>
-        </mat-card-content>
+                <span class="company-name">
+                    <a href="{{experience[1].company.url}}" target="_blank">{{experience[1].company.name |
+                        uppercase}}</a>
+                </span>
 
-    </mat-card>
+                <ul *ngFor="let responsibility of experience[1].responsibilities">
+                    <li>{{responsibility}}</li>
+                </ul>
+            </mat-card-content>
+        </mat-card>
+
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>{{extracurricularActivities | uppercase}}</mat-card-title>
+
+            </mat-card-header>
+
+            <mat-card-content>
+                <div class="designation-wrapper">
+                    <span class="designation">{{experience[2].designation | uppercase}}</span>
+
+                </div>
+
+                <span class="company-name">
+                    <a href="{{experience[2].company.url}}" target="_blank">{{experience[2].company.name |
+                        uppercase}}</a>
+                </span>
+
+                <ul *ngFor="let responsibility of experience[2].responsibilities">
+                    <li>{{responsibility}}</li>
+                </ul>
+
+                <div class="designation-wrapper">
+                    <span class="designation">{{experience[3].designation | uppercase}}</span>
+
+                </div>
+
+                <span class="company-name">
+                    <a href="{{experience[3].company.url}}" target="_blank">{{experience[3].company.name |
+                        uppercase}}</a>
+                </span>
+
+                <ul *ngFor="let responsibility of experience[3].responsibilities">
+                    <li>{{responsibility}}</li>
+                </ul>
+
+                <div class="designation-wrapper">
+                    <span class="designation">{{experience[4].designation | uppercase}}</span>
+
+                </div>
+
+                <span class="company-name">
+                    <a href="{{experience[4].company.url}}" target="_blank">{{experience[4].company.name |
+                        uppercase}}</a>
+                </span>
+
+
+                <ul *ngFor="let responsibility of experience[4].responsibilities">
+                    <li>{{responsibility}}</li>
+                </ul>
+            </mat-card-content>
+        </mat-card>
+    </div>
 </div>

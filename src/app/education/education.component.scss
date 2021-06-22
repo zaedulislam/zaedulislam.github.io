@@ -27,6 +27,7 @@ mat-card {
 
 ul{
     list-style-type: disclosure-closed;
+    line-height: 24px;
     li{
         padding: 4px;
     }
@@ -35,14 +36,14 @@ ul{
 
 .education-title {
     color: rgba(5, 65, 123, 1);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 26px;
+    font-family: 'Open Sans';
+    font-size: 24px;
     margin-bottom: 16px;
 }
 
 .education-non-title {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-family: 'Open Sans';
+    font-size: 16px;
 }
 
 
