@@ -1,24 +1,26 @@
 mat-toolbar {
-    background: #384055;
-    border-bottom: 1px solid grey;
-    color: white;
     position: sticky;
     top: 0;
     z-index: 5000;
-    font-size: 15px;
+    font-size: 14px;
+    background-color: white;
 }
 
 mat-toolbar-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 100px;
+    width: 100%;
 
     .toolbar-title {
         display: flex;
-        flex-direction: row;
+        justify-content: center;
+        width: 40%;
 
         .name-text {
             font-size: 26px;
+            font-family: "Open Sans";
             font-weight: 700px;
             margin-right: 20px;
         }
@@ -26,8 +28,11 @@ mat-toolbar-row {
 
     .toolbar-items {
         display: flex;
+        justify-content: center;
+        width: 60%;
 
         .toolbar-item {
+            font-family: "Open Sans";
             padding: 0px 14px;
         }
     }

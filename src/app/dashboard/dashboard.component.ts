@@ -10,13 +10,13 @@ export class DashboardComponent {
         'ABOUT ME',
         'EDUCATION',
         'EXPERIENCE',
-        'PROJECTS',
-        'CERTIFICATIONS',
-        'RESEARCH',
-        'AWARDS',
-        'BLOG',
-        'CV',
-        'CONTACT'
+        //'PROJECTS',
+        //'CERTIFICATIONS',
+        //'RESEARCH',
+        //'AWARDS',
+        //'BLOG',
+        //'CV',
+        //'CONTACT'
     ];
 
 
