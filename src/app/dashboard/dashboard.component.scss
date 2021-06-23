@@ -16,13 +16,21 @@ mat-toolbar-row {
     .toolbar-title {
         display: flex;
         justify-content: center;
+        
         width: 40%;
 
-        .name-text {
-            font-size: 26px;
-            font-family: "Open Sans";
-            font-weight: 700px;
-            margin-right: 20px;
+        .given-name {
+            font-family: Yellowtail;
+            font-size: 30px;
+            font-weight: 700;
+            margin-right: 10px;
+            color: #343a40;
+        }
+        .last-name {
+            font-family: Yellowtail;
+            font-size: 30px;
+            font-weight: 700;
+            color: #bd5d38;
         }
     }
 
@@ -32,7 +40,9 @@ mat-toolbar-row {
         width: 60%;
 
         .toolbar-item {
-            font-family: "Open Sans";
+            font-family: 'Caveat', cursive;
+            font-weight: 700;
+            font-size: 16px;
             padding: 0px 14px;
         }
     }

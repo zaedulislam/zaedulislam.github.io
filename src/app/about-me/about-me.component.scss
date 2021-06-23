@@ -1,15 +1,27 @@
-.mat-card-container {
+.about-me-container {
+    display: flex;
+    justify-content: space-evenly;
     padding: 24px;
-
+    background-color: white;
+    
     mat-card {
         margin: 5px;
+        box-shadow: 0px 5px 10px rgb(154 160 185 / 5%), 0px 15px 40px rgb(166 173 201 / 20%);
+        background-color: #F8F8FF;
 
         mat-card-header {
             margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(232, 110, 68);
+            border-radius: 4px;
 
             mat-card-title {
-                font-size: 30px;
-                color: #05417b;
+                font-size: 20px;
+                color: #ffffff;
+                margin: 0px;
+                padding: 8px;
+                font-weight: 700px;
             }
         }
     }
@@ -17,8 +29,8 @@
 
 .profile-picture {
     margin: 0px !important;
-    padding-right: 40px;
-    width: 300px;
+    border-radius: 50%;
+    width: 200px;
 }
 
 .profiles {
@@ -30,8 +42,11 @@
     margin-right: 15px;
 }
 
+.introduction-wrapper{
+    width: 50%;
+}
+
 .introduction {
-    padding: 40px 0px 0px 0px;
     margin: 0px;
     font-size: 16px;
     line-height: 1.56;
