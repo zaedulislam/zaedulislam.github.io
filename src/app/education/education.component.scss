@@ -1,48 +1,62 @@
 .mat-card-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 18px 10px 18px;
-    
-    .div{
-        width: 100%;
-    }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 18px 10px 18px;
+
+  .div {
+    width: 100%;
+  }
 }
 
 mat-card {
-    margin: 16px;
-    box-shadow: 0px 5px 10px rgb(154 160 185 / 5%), 0px 15px 40px rgb(166 173 201 / 20%) !important;
-    height: 200px;
-    width: 40%;
-    border: 2px solid #7510F7;
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  box-shadow: 0px 5px 10px rgb(154 160 185 / 5%),
+    0px 15px 40px rgb(166 173 201 / 20%) !important;
+  min-height: 200px;
+  width: 40%;
+  background-color: azure;
 
+  mat-card-header {
+    margin-bottom: 20px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    background-color: #F8F8FF;
-}
+    background-color: rgb(232, 110, 68);
+    border-radius: 4px;
 
-ul{
-    list-style-type: disclosure-closed;
-    line-height: 24px;
-    li{
-        padding: 4px;
+    mat-card-title {
+      font-size: 20px;
+      color: #ffffff;
+      margin: 0px;
+      padding: 8px;
+      font-family: "Cairo", sans-serif;
     }
+
+    mat-card-subtitle {
+      margin: 0px;
+
+      font-size: 20px;
+      color: black;
+    }
+  }
 }
 
+ul {
+  list-style-type: disclosure-closed;
+  line-height: 24px;
+  li {
+    padding: 4px;
+  }
+}
 
 .education-title {
-    color: rgba(5, 65, 123, 1);
-    font-family: 'Open Sans';
-    font-size: 24px;
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .education-non-title {
-    font-family: 'Open Sans';
-    font-size: 16px;
+  font-size: 16px;
 }
-
-

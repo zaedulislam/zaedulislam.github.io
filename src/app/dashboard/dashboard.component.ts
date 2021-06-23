@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class DashboardComponent {
   toolbarItems: any[] = [
     { path: '/about-me', displayTitle: 'ABOUT ME' },
-    { path: '/education', displayTitle: 'EDUCATION' },
     { path: '/experience', displayTitle: 'EXPERIENCE' },
+    { path: '/education', displayTitle: 'EDUCATION' },
     //'PROJECTS',
     //'CERTIFICATIONS',
     //'RESEARCH',
