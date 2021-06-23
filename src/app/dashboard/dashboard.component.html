@@ -1,16 +1,22 @@
 <div class="dashboard-container">
-    <mat-toolbar>
-        <mat-toolbar-row>
-            <div class="toolbar-title">
-                <span class="given-name">ZAEDUL</span>
-                <span class="last-name"> ISLAM</span>
-            </div>
-            <div class="toolbar-items">
-                <span class="toolbar-item" *ngFor="let toolbarItem of toolbarItems">{{toolbarItem}}</span>
-            </div>
-        </mat-toolbar-row>
-    </mat-toolbar>
-
-    <!-- <about-me></about-me> -->
-    <experience></experience>
+  <mat-toolbar>
+    <mat-toolbar-row>
+      <div class="toolbar-title">
+        <span class="given-name">ZAEDUL</span>
+        <span class="last-name"> ISLAM</span>
+      </div>
+      <div class="toolbar-items">
+        <div *ngFor="let toolbarItem of toolbarItems">
+          <button
+            mat-button
+            class="toolbar-item"
+            routerLink="{{ toolbarItem.path }}"
+            routerLinkActive="active"
+          >
+            {{ toolbarItem.displayTitle }}
+          </button>
+        </div>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
 </div>

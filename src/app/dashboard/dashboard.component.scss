@@ -39,11 +39,13 @@ mat-toolbar-row {
         justify-content: center;
         width: 60%;
 
-        .toolbar-item {
+        ::ng-deep .toolbar-item {
+            .mat-button-wrapper{
             font-family: 'Caveat', cursive;
             font-weight: 700;
             font-size: 16px;
             padding: 0px 14px;
+            }
         }
     }
 }
