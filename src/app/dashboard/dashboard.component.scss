@@ -3,7 +3,7 @@ mat-toolbar {
     top: 0;
     z-index: 5000;
     font-size: 14px;
-    background-color: white;
+    background-color: #04003F;
 }
 
 mat-toolbar-row {
@@ -24,7 +24,7 @@ mat-toolbar-row {
             font-size: 30px;
             font-weight: 700;
             margin-right: 10px;
-            color: #343a40;
+            color: #4DDBC3;
         }
         .last-name {
             font-family: Yellowtail;
@@ -38,6 +38,7 @@ mat-toolbar-row {
         display: flex;
         justify-content: center;
         width: 60%;
+        color: #FFFFFF;
 
         ::ng-deep .toolbar-item {
             .mat-button-wrapper{

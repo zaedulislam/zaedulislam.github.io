@@ -2,12 +2,11 @@
     display: flex;
     justify-content: space-evenly;
     padding: 24px;
-    background-color: white;
     
     mat-card {
         margin: 5px;
         box-shadow: 0px 5px 10px rgb(154 160 185 / 5%), 0px 15px 40px rgb(166 173 201 / 20%);
-        background-color: azure;
+        background-color: #FFFFFF;
 
         mat-card-header {
             margin-bottom: 20px;
