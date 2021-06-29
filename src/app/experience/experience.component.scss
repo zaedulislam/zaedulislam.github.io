@@ -1,3 +1,7 @@
+.upper-section {
+  margin-bottom: 16px;
+}
+
 .experience-container {
   display: flex;
   flex-direction: row;
@@ -21,21 +25,24 @@
 .designation {
   font-size: 18px;
   font-weight: 700;
-  line-height: 24px;
   color: #343a40;
 }
 
 .experience-timeline {
-  font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
   color: rgba(5, 65, 123, 1);
 }
 
+.company-name-wrapper {
+  margin: 8px 0px 16px;
+}
+
 .company-name {
-  font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  color: #6c757d;
+}
+
+.company-about {
   color: #6c757d;
 }
 
@@ -59,7 +66,7 @@ a:hover {
     box-shadow: 0px 5px 10px rgb(154 160 185 / 5%),
       0px 15px 40px rgb(166 173 201 / 20%) !important;
     width: 70%;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 
     mat-card-header {
       margin-bottom: 20px;
@@ -87,14 +94,35 @@ a:hover {
   }
 }
 
+.responsibilities-header {
+  font-weight: 600;
+  color: #005799;
+}
+
+.project-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+
+  span {
+    font-weight: 600;
+    color: #005799;
+  }
+}
+
 li {
-  font-size: 16px;
   text-align: justify;
   white-space: normal;
   list-style-type: disclosure-closed;
-  line-height: 24px;
 }
 
 hr {
-  border-top: 2px dotted;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
 }
