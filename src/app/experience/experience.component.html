@@ -82,11 +82,17 @@
           >
         </div>
 
-        <span class="company-name">
-          <a href="{{ experience[1].company.url }}" target="_blank">{{
-            experience[1].company.name | uppercase
-          }}</a>
-        </span>
+        <div class="company-name-wrapper">
+          <span class="company-name">
+            <a href="{{ experience[1].company.url }}" target="_blank">{{
+              experience[1].company.name | uppercase
+            }}</a>
+          </span>
+        </div>
+
+        <div>
+          <span class="responsibilities-header"> Responsibilities: </span>
+        </div>
 
         <ul *ngFor="let responsibility of experience[1].responsibilities">
           <li>{{ responsibility }}</li>
@@ -108,11 +114,17 @@
           }}</span>
         </div>
 
-        <span class="company-name">
-          <a href="{{ experience[2].company.url }}" target="_blank">{{
-            experience[2].company.name | uppercase
-          }}</a>
-        </span>
+        <div class="company-name-wrapper">
+          <span class="company-name">
+            <a href="{{ experience[2].company.url }}" target="_blank">{{
+              experience[2].company.name | uppercase
+            }}</a>
+          </span>
+        </div>
+
+        <div>
+          <span class="responsibilities-header"> Responsibilities: </span>
+        </div>
 
         <ul *ngFor="let responsibility of experience[2].responsibilities">
           <li>{{ responsibility }}</li>
@@ -126,11 +138,17 @@
           }}</span>
         </div>
 
-        <span class="company-name">
-          <a href="{{ experience[3].company.url }}" target="_blank">{{
-            experience[3].company.name | uppercase
-          }}</a>
-        </span>
+        <div class="company-name-wrapper">
+          <span class="company-name">
+            <a href="{{ experience[3].company.url }}" target="_blank">{{
+              experience[3].company.name | uppercase
+            }}</a>
+          </span>
+        </div>
+
+        <div>
+          <span class="responsibilities-header"> Responsibilities: </span>
+        </div>
 
         <ul *ngFor="let responsibility of experience[3].responsibilities">
           <li>{{ responsibility }}</li>
@@ -144,11 +162,17 @@
           }}</span>
         </div>
 
-        <span class="company-name">
-          <a href="{{ experience[4].company.url }}" target="_blank">{{
-            experience[4].company.name | uppercase
-          }}</a>
-        </span>
+        <div class="company-name-wrapper">
+          <span class="company-name">
+            <a href="{{ experience[4].company.url }}" target="_blank">{{
+              experience[4].company.name | uppercase
+            }}</a>
+          </span>
+        </div>
+
+        <div>
+          <span class="responsibilities-header"> Responsibilities: </span>
+        </div>
 
         <ul *ngFor="let responsibility of experience[4].responsibilities">
           <li>{{ responsibility }}</li>

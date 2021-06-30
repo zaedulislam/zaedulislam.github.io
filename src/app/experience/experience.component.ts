@@ -59,27 +59,7 @@ export class ExperienceComponent {
       startDate: 'September 2018',
       endDate: 'December 2018',
       responsibilities: [
-        "Assisted students to learn different topics of 'Artificial Intelligence and Expert System' and to implementthe source codes in the lab",
-      ],
-    },
-    {
-      designation: 'Problem Setter',
-      company: {
-        name: 'AIUB CS Fest 2018 Programming Contest (Junior)',
-        url: 'https://toph.co/c/aiub-cs-fest-2018-j',
-      },
-      responsibilities: [
-        'Authored a problem, generated test cases, wrote the solution of that problem and judged contestants’ submissions',
-      ],
-    },
-    {
-      designation: 'Volunteer',
-      company: {
-        name: 'AIUB GIRLS PROGRAMMING CONTEST - SPRING 2016-2017',
-        url: 'https://www.aiub.edu/aiub-girls-programming-contest---spring-2016-2017',
-      },
-      responsibilities: [
-        'Monitored the contest labs and assisted AIUB Computer Club (ACC) to make the event a successful one',
+        "Assisted students to learn different topics of 'Artificial Intelligence and Expert System' and to implement the source codes in the lab",
       ],
     },
     {
@@ -89,7 +69,27 @@ export class ExperienceComponent {
         url: 'https://www.facebook.com/groups/aiub.acm',
       },
       responsibilities: [
-        'Assisted  fellow AIUBians who had found difficulties in subjects such as C, C++, C#, Java, Discrete Math, Data Structure andAlgorithms to understand the topics, program or code',
+        "With the guidance of Department of Computer Science, on behalf of AIUB Competitive Programmers' Community (ACPC), I had assisted fellow AIUBians who had found difficulties related to Programming and/or C, C++, Discrete Math, C#, Java, Data Structure and Algorithms courses, to understand the topics, program or code",
+      ],
+    },
+    {
+      designation: 'Problem Setter',
+      company: {
+        name: 'AIUB CS Fest 2018 Programming Contest (Junior)',
+        url: 'https://toph.co/c/aiub-cs-fest-2018-j',
+      },
+      responsibilities: [
+        'Set a problem, generated test cases, and wrote the problem solution for the AIUB CS Fest 2018 Programming Contest (Junior) hosted by AIUB Computer Club (ACC)',
+      ],
+    },
+    {
+      designation: 'Volunteer',
+      company: {
+        name: 'AIUB GIRLS PROGRAMMING CONTEST - SPRING 2016-2017',
+        url: 'https://www.aiub.edu/aiub-girls-programming-contest---spring-2016-2017',
+      },
+      responsibilities: [
+        "I monitored the contest labs, judged contestants' submissions, and assisted AIUB Computer Club (ACC) to make the event successful",
       ],
     },
   ];
