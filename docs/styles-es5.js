@@ -80,13 +80,13 @@
     exports = ___CSS_LOADER_API_IMPORT___(true);
     exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Open+Sans&family=Caveat&family=Kaushan+Script&family=Rancho&family=Yellowtail&family=Cairo&display=swap);"]); // Module
 
-    exports.push([module.i, "\n/* You can add global styles to this file, and also import other style files */\n* {\n  font-family: \"Open Sans\", sans-serif;\n  font-size: 16px;\n}\nhtml,\nbody {\n  height: 100%;\n  margin: 0;\n  background-color: #e7eaf0;\n}", "", {
+    exports.push([module.i, "\n/* You can add global styles to this file, and also import other style files */\n* {\n  font-family: \"Open Sans\", sans-serif;\n  font-size: 16px;\n  line-height: 24px;\n}\nhtml,\nbody {\n  height: 100%;\n  margin: 0;\n  background-color: #e7eaf0;\n}", "", {
       "version": 3,
       "sources": ["E:\\WORKSTATION\\Portfolio/src\\styles.scss", "styles.scss"],
       "names": [],
-      "mappings": ";AAAA,8EAAA;AAIA;EACE,oCAAA;EACA,eAAA;ACDF;ADIA;;EAEE,YAAA;EACA,SAAA;EACA,yBAAA;ACDF",
+      "mappings": ";AAAA,8EAAA;AAIA;EACE,oCAAA;EACA,eAAA;EACA,iBAAA;ACDF;ADIA;;EAEE,YAAA;EACA,SAAA;EACA,yBAAA;ACDF",
       "file": "styles.scss",
-      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\r\n\r\n@import url(\"https://fonts.googleapis.com/css2?family=Open+Sans&family=Caveat&family=Kaushan+Script&family=Rancho&family=Yellowtail&family=Cairo&display=swap\");\r\n\r\n* {\r\n  font-family: \"Open Sans\", sans-serif;\r\n  font-size: 16px;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n  margin: 0;\r\n  background-color: #e7eaf0;\r\n}\r\n\r\n", "/* You can add global styles to this file, and also import other style files */\n@import url(\"https://fonts.googleapis.com/css2?family=Open+Sans&family=Caveat&family=Kaushan+Script&family=Rancho&family=Yellowtail&family=Cairo&display=swap\");\n* {\n  font-family: \"Open Sans\", sans-serif;\n  font-size: 16px;\n}\n\nhtml,\nbody {\n  height: 100%;\n  margin: 0;\n  background-color: #e7eaf0;\n}"]
+      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\r\n\r\n@import url(\"https://fonts.googleapis.com/css2?family=Open+Sans&family=Caveat&family=Kaushan+Script&family=Rancho&family=Yellowtail&family=Cairo&display=swap\");\r\n\r\n* {\r\n  font-family: \"Open Sans\", sans-serif;\r\n  font-size: 16px;\r\n  line-height: 24px;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n  margin: 0;\r\n  background-color: #e7eaf0;\r\n}\r\n\r\n", "/* You can add global styles to this file, and also import other style files */\n@import url(\"https://fonts.googleapis.com/css2?family=Open+Sans&family=Caveat&family=Kaushan+Script&family=Rancho&family=Yellowtail&family=Cairo&display=swap\");\n* {\n  font-family: \"Open Sans\", sans-serif;\n  font-size: 16px;\n  line-height: 24px;\n}\n\nhtml,\nbody {\n  height: 100%;\n  margin: 0;\n  background-color: #e7eaf0;\n}"]
     }]); // Exports
 
     module.exports = exports;
