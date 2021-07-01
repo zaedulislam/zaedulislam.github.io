@@ -2,22 +2,32 @@
   <mat-card *ngFor="let education of educations">
     <mat-card-header>
       <mat-card-title class="education-title">{{
-        education.title
+        education.degree
       }}</mat-card-title>
     </mat-card-header>
     <mat-card-content>
       <ul>
-        <li class="education-non-title">
-          <strong> Institution:</strong> {{ education.institution }}
-        </li>
-        <li class="education-non-title">
-          <strong> Area:</strong> {{ education.area }}
-        </li>
-        <li class="education-non-title">
-          <strong> Passing Year:</strong> {{ education.passingYear }}
-        </li>
-        <li class="education-non-title">
-          <strong> Result:</strong> {{ education.result }}
+        <li
+          class="education-non-title-wrapper"
+          *ngFor="let item of processEducationData(education) | keyvalue"
+        >
+          <strong>
+            <span> {{ item.key.replace("_", " ") | titlecase }}: </span>
+          </strong>
+          <span>
+            {{ item.value }}
+          </span>
+
+          <mat-icon
+            class="link-icon"
+            *ngIf="
+              item.key === 'institution' ||
+              item.key === 'faculty' ||
+              item.key === 'department' ||
+              item.key === 'program'
+            "
+            >switch_access_shortcut</mat-icon
+          >
         </li>
       </ul>
     </mat-card-content>
